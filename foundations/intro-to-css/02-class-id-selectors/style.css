@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd-p{
+    background-color: #ef8e8e;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#num2-div{
+    color:rgb(85, 85, 226);
+    font-size: 36px;
+}
+
+.change-font{
+    font-size: 24px;
+}
+
+#num4-div{
+    background-color: rgb(151, 229, 151);
+    font-weight: bold;
+}
+
