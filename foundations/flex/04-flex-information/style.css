@@ -1,5 +1,9 @@
+*{
+  /* outline: 1px solid red;*/
+}
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -23,4 +27,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.bottom-container{
+  display: flex;
+  gap: 52px;
+}
+
+.top-container{
+  /* This is unnecessary if we give the body selector the declaration -- text-aligh: center;
+  display: flex;
+  justify-content: center;
+  */
+
+  margin-bottom: 32px;
+}
+
+.box{
+  flex-basis: 200px;
 }
